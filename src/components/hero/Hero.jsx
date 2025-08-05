@@ -8,7 +8,7 @@ import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import resumePDF from "../../assets/Resume.pdf";
+import CV from "../../assets/RahanRajMagar_CV.pdf";
 
 const Hero = () => {
   return (
@@ -34,23 +34,23 @@ const Hero = () => {
               // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
-              Lorem ipsum dolor sit amet consectetur
+              Recent Computer Science graduate with a passion for mobile and web development. Skilled in creating dynamic and responsive applications using modern technologies. Eager to contribute
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
             <a
-              href=""
+              href="https://www.linkedin.com/in/rahan-raj-magar/"
               className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-yellow-500"
             >
               <span> Hire Me</span>
             </a>
             <a
-              href={resumePDF}
+              href={CV}
               className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-yellow-500"
               download
             >
               <div className="flex items-center gap-1">
-                Resume <FiDownload />
+                CV <FiDownload />
               </div>
             </a>
           </div>
@@ -61,33 +61,27 @@ const Hero = () => {
               className=" flex gap-5"
             >
               <li>
-                <a href="">
-                  {" "}
+                <a href="https://github.com/magarohan">
+                  {""}
                   <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
-                  {" "}
+                <a href="https://www.linkedin.com/in/rahan-raj-magar/">
+                  {""}
                   <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://www.instagram.com/_rohan.magar_/">
                   {" "}
                   <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://www.facebook.com/MaGaRoHaN/">
                   {" "}
                   <FaFacebook className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  {" "}
-                  <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
             </ul>
