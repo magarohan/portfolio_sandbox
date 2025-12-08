@@ -8,7 +8,7 @@ import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import CV from "../../assets/RahanRajMagar_CV.pdf";
+import CV from "../../assets/Rahan Raj Magar CV.pdf";
 
 const Hero = () => {
   return (
@@ -34,7 +34,10 @@ const Hero = () => {
               // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
-              Recent Computer Science graduate with a passion for mobile and web development. Skilled in creating dynamic and responsive applications using modern technologies. Eager to contribute
+              Computer Science graduate with a passion for mobile and web
+              development. Skilled in creating dynamic and responsive
+              applications using modern technologies. Eager to contribute to
+              impactful projects and collaborate with innovative teams.
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">

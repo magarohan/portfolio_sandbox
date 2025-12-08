@@ -18,9 +18,6 @@ const Resume = () => {
 
       {/* card*/}
       <div className="card-wrapper w-[90%] sm:w-full mt-5 flex md:flex-col sm:gap-5 mx-auto ">
-
-        {/* EXPERIENCE SECTION COMMENTED OUT */}
-        {/*
         <div className="left flex-1 flex items-center justify-center">
           <fieldset
             data-aos="zoom-in"
@@ -37,22 +34,23 @@ const Resume = () => {
               </div>
               <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  Software Developer
+                  Flutter developer Intern
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                  Company Name
+                  WebStudio Nepal
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  June 2023 - Present
+                  September 2025 - December 2025
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit...
+                  Assisted in implementing REST APIs and integrating them into
+                  mobile applications. Contributed to developing and improving
+                  UI components across multiple mobile apps.
                 </p>
               </div>
             </div>
           </fieldset>
         </div>
-        */}
 
         {/* EDUCATION SECTION */}
         <div className="right flex-1 flex items-center justify-center">
@@ -80,7 +78,13 @@ const Resume = () => {
                   Year 2022 - Year 2025
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
-                  As an undergraduate student, I have a strong foundation in computer science with a focus on software development, data structures, and algorithms. I have a good understanding of both frontend and backend technologies, with hands-on experience in building real-world projects. The course emphasizes practical learning, teamwork, and exposure to modern tools and frameworks relevant to the tech industry.
+                  As an undergraduate student, I have a strong foundation in
+                  computer science with a focus on software development, data
+                  structures, and algorithms. I have a good understanding of
+                  both frontend and backend technologies, with hands-on
+                  experience in building real-world projects. The course
+                  emphasizes practical learning, teamwork, and exposure to
+                  modern tools and frameworks relevant to the tech industry.
                 </p>
               </div>
             </div>

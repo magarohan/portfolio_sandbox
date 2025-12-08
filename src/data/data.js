@@ -3,11 +3,11 @@
 export const data = [
   {
     id: 1,
-    img: 'https://i.postimg.cc/VkRWdHWx/57214s81.jpg',
-    title: "Multimedia Web",
-    desc: "",
-    link: "",
-    git: "",
+    img: 'https://i.postimg.cc/J79XF3PM/Blood-Link.png',
+    title: "Blood Link",
+    desc: "Blood bank management system",
+    link: "https://github.com/magarohan/blood_link/releases/download/v1.0.0/app-release.apk",
+    git: "https://github.com/magarohan/blood_link",
   },
   {
     id: 2,

@@ -4,13 +4,7 @@ import SkillBox from "../../chip/SkillBox";
 
 import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 
-
-import {
-  SiJavascript,
-  SiMongodb,
-  SiExpress,
-  SiFlutter,
-} from "react-icons/si";
+import { SiJavascript, SiMongodb, SiExpress, SiFlutter } from "react-icons/si";
 import { FaReact, FaGithub } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
 
@@ -41,26 +35,22 @@ const Skills = ({ darkMode }) => {
             >
               <div className=" flex flex-col gap-6  w-3/4  my-5 md:w-[90%]">
                 <ProgressBar
-              logo={
-                <div className="flex gap-1 text-xl items-center">
-                  <IoLogoHtml5 />
-                  <IoLogoCss3 />
-                </div>
-              }
-              name={"HTML & CSS"}
-              value={70}
-            />
+                  logo={
+                    <div className="flex gap-1 text-xl items-center">
+                      <IoLogoHtml5 />
+                      <IoLogoCss3 />
+                    </div>
+                  }
+                  name={"HTML & CSS"}
+                  value={70}
+                />
                 <ProgressBar
                   logo={<SiJavascript />}
                   name={"Javascript"}
                   value={80}
                 />
                 <ProgressBar logo={<FaReact />} name={"React Js"} value={70} />
-                <ProgressBar
-                  logo={<SiFlutter />}
-                  name={"Flutter"}
-                  value={80}
-                />
+                <ProgressBar logo={<SiFlutter />} name={"Flutter"} value={80} />
               </div>
             </div>
           </div>
@@ -82,16 +72,14 @@ const Skills = ({ darkMode }) => {
             </div>
             <div className="last2 flex flex-col gap-10">
               <SkillBox
-                logo={<SiExpress />}
+                logo={<SiFlutter />}
                 black={"black"}
                 white={"white"}
-                skill={"Express Js"}
+                skill={"Flutter"}
               />
               <SkillBox
                 className=""
-                logo={
-                  <FaGithub/>
-                }
+                logo={<FaGithub />}
                 black={"black"}
                 white={"white"}
                 skill={"Git & GitHub"}

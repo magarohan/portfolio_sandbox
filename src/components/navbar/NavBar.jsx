@@ -62,7 +62,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             to="/"
             className="text-3xl font-bold sm:text-3xl"
           >
-            Rahan Raj Magar.
+            Rahan Raj Magar
           </Link>
         </div>
         <div
